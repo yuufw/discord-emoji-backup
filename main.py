@@ -69,19 +69,7 @@ class EmojiDownloader(commands.Bot):
 
     def run_bot(self):
         os.system("cls" if os.name == "nt" else "clear")
-
-        print(
-            f"""{utils.colors.PINK}
-             ______     _ _   _           _         
-             |  ___|   (_|_) | |         | |        
-             | |_ _   _ _ _  | |     __ _| |__  ___ 
-             |  _| | | | | | | |    / _` | '_ \/ __|
-             | | | |_| | | | | |___| (_| | |_) \__ \\
-             \_|  \__,_| |_| \_____/\__,_|_.__/|___/
-            {utils.colors.ENDC}"""
-        )
-
-        print(f"{utils.colors.RED}Created by: Fuji Labs{utils.colors.ENDC}")
+        print(f"{utils.colors.RED}Created by: yuufw{utils.colors.ENDC}")
         self.run(config.BOT_TOKEN)
 
 
