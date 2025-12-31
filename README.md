@@ -1,4 +1,4 @@
-# Discord Emoji Downloader 🤖✨
+# Discord Emoji Downloader Bot 🤖✨
 
 A Python script that downloads custom emojis from a server using a bot token.
 This project is useful for backing up or organizing custom emojis from a server.
