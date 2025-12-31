@@ -3,20 +3,20 @@
 A Python script that downloads custom emojis from a server using a bot token.
 This project is useful for backing up or organizing custom emojis from a server.
 
-### 📌 Features
+### Features
 - Connects to a server using a bot token
 - Fetches and downloads custom emojis
 - Saves emojis locally in an organized folder structure
 - Supports static and animated emojis
 
-### ⚙️ Requirements
+### Requirements
 Before running the project, make sure you have:
 - Python 3.11 or higher
 - A bot created on the platform
 - A valid bot token
 - Permission to view emojis on the server
 
-### 📦 Installation
+### Installation
 
 1. Clone the repository:
 ```bash
@@ -27,7 +27,7 @@ git clone https://github.com/yuufw/discord-emoji-downloader.git
 pip install -r requirements.txt
 ```
 
-### 🔑 Configuration
+### Configuration
 Edit the config.py file and add your credentials:
 ```python
 BOT_TOKEN = "YOUR_BOT_TOKEN"
@@ -35,14 +35,14 @@ BOT_TOKEN = "YOUR_BOT_TOKEN"
 > [!WARNING]
 > Never commit or share your bot token publicly.
 
-### ▶️ Usage
+### Usage
 Run the script with:
 ```bash
 python main.py
 ```
 All emojis will be downloaded and saved inside the emojis/ directory.
 
-### 🔐 Security Notes
+### Security Notes
 
 - Do not commit secrets or tokens
 - Grant the bot only the permissions it strictly needs
