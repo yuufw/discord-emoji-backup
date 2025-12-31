@@ -42,13 +42,12 @@ python main.py
 ```
 All emojis will be downloaded and saved inside the emojis/ directory.
 
-### Security Notes
-
-- Do not commit secrets or tokens
-- Grant the bot only the permissions it strictly needs
-
-### 📄 Notes
+### Notes
 - The bot must be a member of the server
 - Some servers may restrict emoji access
 - Animated emojis are usually saved as .gif files
 
+### Security Notes
+
+- Do not commit secrets or tokens
+- Grant the bot only the permissions it strictly needs
